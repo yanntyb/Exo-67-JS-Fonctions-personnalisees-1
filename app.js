@@ -3,6 +3,6 @@ function modifiText(para,text){
     para.innerHTML = text;
 }
 
-for(let i = 1;i<6;i++){
+for(let i in document.getElementsByTagName("p")){
     modifiText("p"+i,Math.random());
 }
