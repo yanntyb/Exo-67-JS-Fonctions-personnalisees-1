@@ -5,5 +5,5 @@ function modifiText(para,text){
 
 for(let i = 1; i<6;i++){
     console.log(i)
-    modifiText("p"+parseInt(i),Math.random());
+    modifiText("p"+i,Math.random());
 }
